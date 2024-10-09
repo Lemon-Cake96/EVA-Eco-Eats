@@ -6,7 +6,7 @@
     <title>Nos Menus</title>
     <link href="../output.css" rel="stylesheet">
 </head>
-<body class="bg-stone-100">
+<body class="bg-stone-100 w-full">
     <div class="grid grid-cols-3">
         <nav class="flex flex-col border-2 border-green-400 bg-yellow-50 text-green-900 pl-4
         rounded-2xl">
@@ -40,50 +40,17 @@
                 </li>
             </ul>
         </nav>
-        <main class="bg-stone-100 col-span-2 flex flex-col">
+        <main class="bg-stone-100 col-span-2 flex flex-col h-full w-full">
             <section class="w-auto h-80 bg-green-900">
-                <p class="h-auto font-extrabold text-9xl flex justify-center">Nos Menus</p>
+                <p class="h-fit w-auto font-extrabold  flex justify-center">Nos Menus</p>
             </section>
             <!--Grille menus -->
             <section class="h- w-4/5 shadow-2xl p-4 text-gray-500 bg-white flex justify-center items-center">
-                <article >    
-                    <div class=" bg-white border border-gray-200 rounded-lg shadow">
-                        <a href="">
-                            <img class="rounded-t-lg w-12 " src="../img/cabillaud.jpeg" alt="" />
-                        </a>
-                        <div class="p-5">
-                            <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-500 ">
-                                    Filet de Cabillaud
-                                </h5>
-                            </a>
-                            <p class="mb-3 font-normal text-gray-500">
-                                Prix : 19,99€
-                            </p>
-                        </div>
-                    </div>
-                </article>
-                <article >    
-                    <div class=" bg-white border border-gray-200 rounded-lg shadow">
-                        <a href="">
-                            <img class="rounded-t-lg w-12 " src="../img/FauxFilet.jpeg" alt="" />
-                        </a>
-                        <div class="p-5">
-                            <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-500 ">
-                                    Faux Filet
-                                </h5>
-                            </a>
-                            <p class="mb-3 font-normal text-gray-500">
-                                Prix : 24,99€
-                            </p>
-                        </div>
-                    </div>
-                </article>
+               
             </section>
         </main>
     </div>
-    <footer class="flex bg-green-900 justify-evenly font-semibold">
+    <footer class="flex bg-green-900 justify-evenly font-semibold fixed bottom-0">
         <div>
             <ul>
                 <li class="hover:text-white"><a href="../index.html">Accueil</a></li>
