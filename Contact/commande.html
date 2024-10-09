@@ -41,18 +41,47 @@
             </ul>
         </nav>
         <main class="bg-stone-100 col-span-2 flex flex-col">
-            <section>
-                <form>
-                    <!--Container test-->
-                    <div>
-                        <label for="lname">Votre Nom :</label>
-                        <input type="text" name="lname" id="lname">
-                    </div>
-                    <div>
-                        <label for="fname">Votre Prenom :</label>
-                        <input type="text" name="fname" id="lname">
-                    </div>
-                </form>
+            <div class="w-auto h-auto bg-green-900 flex justify-center items-center">
+                <p class="text-9xl font-extrabold flex justify-center items-center">Votre Panier</p>
+            </div>
+            <section class="flex justify-center h-auto text-gray-500">
+                <div class="h-auto w-4/5 bg-white shadow">
+                    <form class="flex flex-row">
+                        <!--Container test-->
+                        <div class="px-9 py-3 w-auto h-auto">
+                            <label for="lname">Votre Nom : *</label>
+                            <input type="text" name="lname" id="lname" class="border-2 border-green-400">
+                        </div>
+                        <div class="px-9 py-3 w-auto h-auto">
+                            <label for="fname">Votre Prenom : *</label>
+                            <input type="text" name="fname" id="fname" class="border-2 border-green-400">
+                        </div>
+                    </form>
+                    <form class="flex flex-col">
+                        <!--container test-->
+                        <div class="px-9 py-3 h-auto w-auto">
+                            <label for="padresse">Votre Adresse de payment : *</label>
+                            <input type="text" name="padresse" id="padresse" class="border-2 border-green-400">
+                        </div>
+                        <div class="px-9 py-3 h-auto w-auto flex">
+                            <label for="ladresse">Votre Adresse de livraison :</label>
+                            <input type="text" name="ladresse" id="ladresse" class="border-2 px-1 border-green-400">
+                        </div>
+                        <div class="px-9 py-3 h-auto w-auto">
+                            <label for="mobil">Télephone : *</label>
+                            <input type="tel" name="mobil" id="mobil" class="border-2 border-green-400">
+                        </div>
+                        <div class="flex flex-col px-9 py-3">
+                            <label for="info" class="">
+                                Informations supplementaires pour la livraison :</label>
+                            <textarea style="resize: none;" cols="50" rows="10" id="info"
+                            class="border-2 border-green-400">
+
+                            </textarea>
+                        </div>
+                    </form>
+                    <p class="px-9"><strong>Champs Obligatoires *</strong></p>
+                </div>
             </section>
         </main>
     </div>
