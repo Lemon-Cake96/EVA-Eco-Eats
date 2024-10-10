@@ -42,33 +42,22 @@
         </nav>
         <main class="bg-stone-100 col-span-2">
             <section class="grid grid-rows-4 grid-cols-6 min-h-screen">
-                <div class="bg-green-900 col-span-6">
-                    <p class="flex justify-center items-center h-full w-full text-8xl">Votre Commande</p>
+                <div class="bg-green-900 col-span-6 h-2/4 md:h-full">
+                    <p class="flex justify-center items-center h-full w-full text-4xl md:text-8xl">Votre Commande</p>
                 </div>
-                <article class="shadow-2xl p-4 text-gray-500 bg-white row-span-3 col-start-2 col-span-4">
-                    Eco Eats est une entreprise innovante et engagée dans la protection de l’environnement.
-                    <br>
-                    Leur mission est simple mais puissante : pour chaque repas commandé, un arbre est planté. 
-                    <br>
-                    <br>
-                    🌳Cette initiative vise à compenser l’empreinte carbone des repas tout en contribuant à 
-                    la reforestation et à la biodiversité.
-                    <br>
-                    <br>
-                    En choisissant Eco Eats, les clients participent activement à la lutte contre le changement 
-                    climatique et à la préservation de notre planète.
-                    <br>
-                    <br>
-                    L’entreprise collabore avec diverses organisations de reforestation pour s’assurer que les arbres 
-                    plantés ont un impact positif durable.
-                    <br>
-                    <br>
-                    En plus de leur engagement écologique, Eco Eats s’efforce de proposer des repas délicieux 
-                    et équilibrés, mettant en avant des ingrédients locaux et de saison.
-                    <br>
-                    <br>
-                    En résumé, Eco Eats combine plaisir culinaire et responsabilité environnementale, 
-                    offrant une manière simple et efficace de faire une différence à chaque repas
+                <article class="shadow-2xl text-gray-500 bg-white row-span-3 col-start-1 col-span-6 
+                md:col-start-2 md:col-span-4">
+                    <form class="flex flex-col xl:flex-row">
+                        <!--Container test-->
+                        <div class="px-1 py-3 w-auto h-auto flex flex-col ">
+                            <label for="lname">Votre Nom : *</label>
+                            <input type="text" name="lname" id="lname" class="border-2 border-green-400">
+                        </div>
+                        <div class="px-1 py-3 w-auto h-auto flex flex-col">
+                            <label for="fname">Votre Prenom : *</label>
+                            <input type="text" name="fname" id="fname" class="border-2 border-green-400">
+                        </div>
+                    </form>
                 </article>
             </section>
         </main>
